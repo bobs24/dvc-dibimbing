@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "dvc-dibimbing"
+version = "0.1.0"
+description = ""
+authors = ["bobs24 <bobsebastian1997@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+dvc = "^3.42.0"
+dvc-gdrive = "^3.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
